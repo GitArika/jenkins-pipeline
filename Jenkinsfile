@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('InitialStep') {
          steps {
-            sh 'echo "it works bro!"'
+            sh 'npm run start:dev '
          }
       }
    }
